@@ -1,6 +1,6 @@
 # rsyslog omelasticsearch memory leak
 
-This is a test environment to demonstrate some leaks in rsyslog's omelasticsearch module with some specific settings. This script will send a number of messages to rsyslogd and then print out the memory usage.
+This is a test environment to demonstrate some leaks in rsyslog's omelasticsearch module with some specific settings (see [bug report](https://github.com/rsyslog/rsyslog/issues/1668)). This script will send a number of messages to rsyslogd and then print out the memory usage.
 
 To run with Docker:
 
